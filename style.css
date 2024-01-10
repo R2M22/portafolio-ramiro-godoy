@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.col {
+  background-color: white;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -92,21 +96,21 @@ h1 {
 }
 
 .logo {
-    color: white;
+  color: white;
 }
 
 .footer-principal {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 img {
-    box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
-} 
-
+  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
+}
 
 /* PAGINA CONTACTO CSS */
 
-.body-contacto { background-color:#191c32
+.body-contacto {
+  background-color: #191c32;
 }
 
 .container-contacto {
@@ -148,7 +152,7 @@ button {
 }
 
 .footer-contacto {
-   padding-top: 230px;
+  padding-top: 230px;
 }
 
 /* PAGINA CONTACTO CSS */
@@ -167,18 +171,17 @@ button {
   box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
 }
 .about-me {
-    background-color: rgba(132, 0, 255, 0.233);
-    padding: 100px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
-    text-align: justify;
-  }
+  background-color: rgba(132, 0, 255, 0.233);
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(193, 154, 245, 0.11);
+  text-align: justify;
+}
 
 header {
   text-align: center;
   margin-bottom: 20px;
 }
-
 
 .h1-quiensoy {
   color: rgb(132, 0, 255);
@@ -191,16 +194,43 @@ header {
 }
 
 .footer-quiensoy {
-    padding-top: 430px;
+  padding-top: 430px;
 }
 
 .h2-quiensoy {
-    color: white;
+  color: white;
 }
 
 /* PAGINA QUIEN SOY CSS */
 
 /* PAGINA PORTAFOLIO CSS */
+
+.container 
+
+.card-img-top {
+  border-radius: 20px;
+  padding: 20px;
+}
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.btn-primary {
+  border-radius: 50px;
+  width: 120px;
+}
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+}
+
+.h1-proyectos1 {
+  color: white;
+}
 
 .body-portafolio {
   background-color: #191c32;
@@ -215,41 +245,41 @@ header {
 }
 
 .footer-portafolio {
-    padding-top: 340px;
+  padding-top: 340px;
 }
 
 /* PAGINA PORTAFOLIO CSS */
 
 /* PAGINA CONTACTO EXPERIENCIA*/
 
-.body-experiencia { background-color:#191c32
+.body-experiencia {
+  background-color: #191c32;
 }
 
-
 .main-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .experience-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .experience-title {
-    color:rgb(132, 0, 255);
+  color: rgb(132, 0, 255);
 }
 
-.experiencia-fecha{
-    font-weight: bold;
-    color: #ffffff;
+.experiencia-fecha {
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .experiencia-descripcion {
-color: grey;
+  color: grey;
 }
 
 .footer-experiencia {
-    padding-top: 500px;
+  padding-top: 500px;
 }
 /* PAGINA CONTACTO EXPERIENCIA */
